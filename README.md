@@ -23,7 +23,7 @@ The _init_db.sql_ script located in repo root directory will initiate the schema
 docker build --tag <your_tag_here> .
 docer run -d <your_tag_here> -p 5432:5432
 ```
-Note: Use port of your choice when running a container, but the same needs to be applied in _config.properties_.
+**Note:** Use port of your choice when running a container, but the same needs to be applied in _config.properties_.
 
 
 ### OpenAI API
@@ -31,7 +31,7 @@ Set environment variable with a key for OpenAI API:
 ```shell
 export OPENAI_API_KEY=<your_key_here>
 ```
-Note: If you want to use another variable name then change it in _config.properties_ as well.
+**Note:** If you want to use another variable name then change it in _config.properties_ as well.
 
 ## Run the app
 
