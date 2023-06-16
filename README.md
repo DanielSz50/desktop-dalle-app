@@ -27,7 +27,7 @@ docer run -d <your_tag_here> -p 5432:5432
 
 
 ### OpenAI API
-Set environment variable with a key for OpenAI API:
+Set environment variable with a key to OpenAI API:
 ```shell
 export OPENAI_API_KEY=<your_key_here>
 ```
