@@ -1,8 +1,9 @@
 # desktop-dalle-app
 
 ## Description
-This is a desktop app written in Java that allows the user to generate images with Dall-e generator from OpenAI.
+This is a desktop app written in Java that allows the user to generate images with Dall-e generator by OpenAI.
 App uses JavaFX to render the UI components.\
+\
 There is also a PostgresSQL database under the hood to store metadata of the generated images,
 this way we won't lose the path of generated pictures when we change the build dir,
 it also allows us to store query that was used to generate an image.
